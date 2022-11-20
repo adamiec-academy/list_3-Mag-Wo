@@ -6,7 +6,7 @@ speed("slow")
 
 def arm():
     for i in range(16):
-        a = 20 * (i % 20)
+        a = 20 * (i % 20) + 50
         forward(a)
         backward(a)
 
